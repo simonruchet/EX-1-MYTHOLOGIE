@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  height: 89px;
+  padding: 20px 12px;
+  justify-content: space-between;
+  align-items: center;
+  // background: var(--Background-components);
+  background-color: var(--color-background);
+  margin-bottom: 20px;
+  .header-logo {
+    color: var(--Text-secondary);
+    font-family: "Caesar Dressing";
+    font-size: 40px;
+  }
+  button {
+    // all: unset;
+    color: var(--CoolGray-90);
+  }
+}
+
+html[data-theme="light"] #light-mode-btn {
+  display: none;
+}
+
+html[data-theme="dark"] #dark-mode-btn {
+  display: none;
+}

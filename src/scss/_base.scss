@@ -12,3 +12,30 @@ img,
 video {
   display: block;
 }
+
+html {
+  --Text-secondary: #000000;
+  --CoolGray-90: #21272a;
+  --Background-components: #bcbfc3;
+  --Text-main: #515050;
+  --color-background: yellow;
+}
+html[data-theme="dark"] {
+  --color-background: blue;
+}
+
+h1 {
+  color: var(--Text-main);
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Caesar Dressing";
+  font-weight: 400;
+}

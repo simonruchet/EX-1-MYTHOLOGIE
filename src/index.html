@@ -1,13 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
   <head>
     <meta charset="utf-8" />
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bubbler+One&family=Caesar+Dressing&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <!-- <header>
+      <div class="header-logo">ATLAS DIVIN</div>
+      <nav>
+        <ul>
+          <li><a href="favourites.html">Mes favoris</a></li>
+          <li><a href="god-day.html">Dieu du jour</a></li>
+          <li><a href="pop-god.html">Dieux populaires</a></li>
+          <button><img src="img/moon.svg" alt="icône de lune" /></button>
+        </ul>
+      </nav>
+    </header> -->
+
+    <header>
+      <div class="header-logo">ATLAS DIVIN</div>
+      <button type="button" id="dark-mode-btn" class="header-dark-mode-btn">
+        Passer au dark mode
+      </button>
+      <button type="button" id="light-mode-btn" class="header-light-mode-btn">
+        Passer au light mode
+      </button>
+      <button>
+        <img src="img/align-justified.svg" alt="burger menu" />
+      </button>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Voir les dieux des panthéons</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <section class="god-day-article">
+              <article>
+                <div class="god-day-article-text-content">
+                  <h3>Dieu du jour</h3>
+                  <div class="god-day-article-name">
+                    <h2>Bacchus</h2>
+                    <p>Dieu romain du vin</p>
+                  </div>
+
+                  <p>
+                    Egalement Dieu de l'ivresse, des débordements, de la nature
+                    et des festivités.
+                  </p>
+                  <p>
+                    Bacchus est un dieu romain correspondant à Dionysos dans la
+                    mythologie grecque. Les Romains utilisaient Bacchus comme un
+                    autre nom de Liber Pater, un dieu latin de la fécondité.
+                  </p>
+                </div>
+
+                <a href="god-day.html">
+                  En savoir plus
+                  <img src="img/arrow-narrow-right.svg" alt="arrow" />
+                </a>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <script src="js/main.js" type="module"></script>
   </body>
