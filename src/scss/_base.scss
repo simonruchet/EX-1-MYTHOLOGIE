@@ -22,6 +22,7 @@ html {
   --Yellow: #f8af27;
   --Green: #12965d;
   --Red: #f82727;
+  --Background: #fff;
   --color-background: yellow;
 }
 html[data-theme="dark"] {
@@ -50,4 +51,5 @@ button {
 
 p {
   font-family: "Bubbler One";
+  color: var(--Text-main);
 }

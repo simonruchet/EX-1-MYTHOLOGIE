@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--Background, #fff);
+  image-rendering: 100%;
+  .card-img {
+    position: relative;
+  }
+  img {
+    width: 100%;
+  }
+  .card-collection-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+  h4 {
+    display: flex;
+    align-items: flex-start;
+    color: var(--Blue);
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    background: var(--Background);
+    padding: 8px 12px;
+  }
+  h5 {
+    color: var(--Text-main);
+    font-family: "Bubbler One";
+    font-size: 20px;
+  }
+  .card-pantheon-symbol {
+    display: flex;
+    justify-content: space-between;
+    svg {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+  .card-text {
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+  }
+}
+
+.card-athena {
+  border: 2px solid var(--Blue);
+}
+
+.card-mars {
+  border: 2px solid var(--Red);
+}
