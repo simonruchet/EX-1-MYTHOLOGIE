@@ -18,6 +18,10 @@ html {
   --CoolGray-90: #21272a;
   --Background-components: #bcbfc3;
   --Text-main: #515050;
+  --Blue: #279ef8;
+  --Yellow: #f8af27;
+  --Green: #12965d;
+  --Red: #f82727;
   --color-background: yellow;
 }
 html[data-theme="dark"] {
@@ -38,4 +42,12 @@ h3,
 h4 {
   font-family: "Caesar Dressing";
   font-weight: 400;
+}
+
+button {
+  all: unset;
+}
+
+p {
+  font-family: "Bubbler One";
 }
