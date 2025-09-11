@@ -1,12 +1,13 @@
 header {
-  display: flex;
+  background-color: var(--color-background);
   height: 89px;
-  padding: 20px 12px;
+}
+
+.header-content {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   // background: var(--Background-components);
-  background-color: var(--color-background);
-  margin-bottom: 20px;
   .header-logo {
     color: var(--Text-secondary);
     font-family: "Caesar Dressing";
