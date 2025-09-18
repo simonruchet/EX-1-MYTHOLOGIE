@@ -86,3 +86,12 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .burger-menu ul li {
+    margin-bottom: 0px;
+  }
+  .burger-menu .burger-menu-mode {
+    margin-bottom: 0;
+  }
+}

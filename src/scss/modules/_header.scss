@@ -26,3 +26,11 @@ html[data-theme="light"] #light-mode-btn {
 html[data-theme="dark"] #dark-mode-btn {
   display: none;
 }
+
+@media (max-width: 1200px) {
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 1010;
+  }
+}

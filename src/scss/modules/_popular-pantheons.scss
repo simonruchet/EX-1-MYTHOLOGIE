@@ -1,5 +1,6 @@
 .popular-pantheons {
   margin-bottom: 28px;
+
   h6 {
     color: var(--Text-main);
     font-family: "Bubbler One";
@@ -13,6 +14,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    width: 100%;
   }
   li {
     display: flex;
@@ -23,6 +25,8 @@
     border-radius: 8px;
     color: var(--Background);
     justify-content: space-between;
+    background: var(--Blue);
+    width: 100%;
   }
 
   li.greek {
@@ -38,3 +42,9 @@
     background: var(--Red);
   }
 }
+
+// @media (min-width: 1200px) {
+//   .popular-pantheons {
+//     position: sticky;
+//   }
+// }
