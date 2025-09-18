@@ -6,6 +6,7 @@
   gap: 24px;
   border-radius: 8px;
   border: 2px solid var(--Text-main);
+  margin-bottom: 20px;
   .god-day-article-text-content {
     display: flex;
     flex-direction: column;
@@ -49,5 +50,11 @@
     text-decoration-style: solid;
     text-underline-offset: 17.5%; /* 3.5px */
     text-underline-position: from-font;
+  }
+}
+
+@media (min-width: 1200px) {
+  .god-day-article {
+    margin-bottom: 40px;
   }
 }
