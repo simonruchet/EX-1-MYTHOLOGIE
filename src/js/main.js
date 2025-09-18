@@ -1,3 +1,12 @@
+// Sélection des éléments
+const burgerBtn = document.querySelector("#burger-btn");
+const burgerMenu = document.querySelector(".burger-menu");
+
+// Au clic sur le bouton burger, toggle la classe "active"
+burgerBtn.addEventListener("click", () => {
+  burgerMenu.classList.toggle("active");
+});
+
 // On commence par créer deux variables JavaScript,
 // pour sélectionner chacune un des deux boutons (light et dark)
 const toggleDarkModeBtn = document.querySelector("#dark-mode-btn");
