@@ -1,5 +1,5 @@
 footer {
-  background: var(--Background-components, #bcbfc3);
+  background-color: var(--color-background);
   margin-top: 20px;
 }
 
@@ -59,7 +59,7 @@ footer {
 .footer-line hr {
   border: none;
   height: 1px;
-  background-color: black;
+  background-color: var(--Text-secondary);
 }
 
 .footer-copyrights {

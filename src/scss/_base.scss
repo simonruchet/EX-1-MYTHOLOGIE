@@ -24,9 +24,17 @@ html {
   --Red: #f82727;
   --Background: #fff;
   --color-background: #bcbfc3;
+  background-color: var(--Background);
 }
 html[data-theme="dark"] {
   --color-background: #696a6c;
+  --Background: #515050;
+  --Text-secondary: #ffffff;
+  --Text-main: #ffffff;
+  --Blue: #a3d7ff;
+  --Yellow: #f7f43e;
+  --Green: #76e5b5;
+  --Red: #f8a7a7;
 }
 
 h1 {
