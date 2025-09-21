@@ -7,8 +7,13 @@
   background: var(--Background, #fff);
   image-rendering: 100%;
   margin-top: 12px;
+  overflow: hidden;
   .card-img {
     position: relative;
+    overflow: hidden;
+    img {
+      transition: transform 0.5s ease;
+    }
   }
   img {
     width: 100%;
@@ -133,4 +138,8 @@
   h4 {
     color: var(--Yellow);
   }
+}
+
+img:hover {
+  transform: scale(1.1);
 }
